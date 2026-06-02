@@ -1,0 +1,36 @@
+Reference,Value,Footprint,Quantity,Manufacturer,Part Number,Supplier,Unit Price,Notes
+U1,ESP32-WROOM-32E,Module_ESP32:ESP32-WROOM-32E,1,Espressif,ESP32-WROOM-32E,Digikey,8.95,Microcontroller Module
+U2,MP1584EN,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,1,Monolithic Power Systems,MP1584EN,Digikey,2.50,Buck Converter 12V to 5V
+U3,AMS1117-3.3,Package_TO_SOT_89:SOT-89-3,1,Advanced Monolithic Systems,AMS1117-3.3,Digikey,0.45,LDO Regulator 5V to 3.3V
+U4,MAX3485,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,1,Maxim Integrated,MAX3485EASA,Digikey,1.85,RS485 Transceiver
+Q1,AO3401A,Package_TO_SOT_23:SOT-23,1,Alpha and Omega,AO3401A,Digikey,0.35,PMOS Reverse Polarity Protection
+Q2,AO3400A,Package_TO_SOT_23:SOT-23,9,Alpha and Omega,AO3400A,Digikey,0.30,NMOS Output Driver (qty 9 for outputs)
+D1,SMBJ15A,Package_SMD:DO-214AB,1,Bourns,SMBJ15A,Digikey,0.75,TVS Diode 15V
+D2,SS14,Package_SMD:DO-214AB,9,Vishay,SS14,Digikey,0.15,Flyback Diodes (qty 9)
+F1,Polyfuse 2A,Fuse_SMD:Fuse_1206_3216Metric,1,Littelfuse,0 3528 002 P,Digikey,0.85,2A Polyfuse
+C1,10µF,Capacitor_SMD:C_1206_3216Metric,4,KEMET,C1206X5R0J106M230AC,Digikey,0.25,Bulk Capacitors (qty 4)
+C2,1µF,Capacitor_SMD:C_0603_1608Metric,6,Samsung,CL10B105KA8NNNC,Digikey,0.10,Bypass Capacitors (qty 6)
+C3,100nF,Capacitor_SMD:C_0603_1608Metric,15,Samsung,CL10B104KA8NNNC,Digikey,0.05,Decoupling Capacitors (qty 15)
+C4,22µF,Capacitor_SMD:C_1206_3216Metric,2,KEMET,C1206X5R0J226M230AC,Digikey,0.20,Power Supply (qty 2)
+L1,10µH,Inductor_SMD:L_1210_3225Metric,1,Sunlord,SWPA4020S100MT,Digikey,0.45,Inductor for Buck Converter
+R1,100k,Resistor_SMD:R_0603_1608Metric,1,Yageo,RC0603JR-07100KL,Digikey,0.02,
+R2,10k,Resistor_SMD:R_0603_1608Metric,10,Yageo,RC0603JR-0710KL,Digikey,0.02,Pulldown Resistors (qty 10)
+R3,100,Resistor_SMD:R_0603_1608Metric,9,Yageo,RC0603JR-07100RL,Digikey,0.02,Gate Resistors (qty 9)
+R4,1k,Resistor_SMD:R_0603_1608Metric,4,Yageo,RC0603JR-071KL,Digikey,0.02,Status LEDs (qty 4)
+R5,2.2k,Resistor_SMD:R_0603_1608Metric,2,Yageo,RC0603JR-072K2L,Digikey,0.02,RS485 Termination (qty 2)
+R6,120,Resistor_SMD:R_0603_1608Metric,2,Yageo,RC0603JR-07120RL,Digikey,0.02,RS485 Termination (qty 2)
+LED1,Red LED,LED_SMD:LED_0603_1608Metric,1,Kingbright,KPT-2012E-R3,Digikey,0.25,Power LED
+LED2,Green LED,LED_SMD:LED_0603_1608Metric,1,Kingbright,KPT-2012E-G3,Digikey,0.25,WiFi LED
+LED3,Blue LED,LED_SMD:LED_0603_1608Metric,1,Kingbright,KPT-2012E-B3,Digikey,0.25,Pump LED
+LED4,Yellow LED,LED_SMD:LED_0603_1608Metric,1,Kingbright,KPT-2012E-Y3,Digikey,0.25,Valve LED
+SW1,Boot Button,Button_SMD:SW_SPST_TL3305,1,E-Switch,TL3305F160QG,Digikey,0.45,Boot Button
+SW2,Reset Button,Button_SMD:SW_SPST_TL3305,1,E-Switch,TL3305F160QG,Digikey,0.45,Reset Button
+J1,USB Micro B,Connector_USB:USB_Micro-B_Amphenol_10103594,1,Amphenol,10103594-0001LF,Digikey,1.50,USB Programming Connector
+J2,Terminal Block 2P,Connector_Phoenix:PhoenixContact_MKDS_1,5,Phoenix Contact,1729201,Digikey,0.85,12V/Ground/Solar Input (qty 3)
+J3,Terminal Block 9P,Connector_Phoenix:PhoenixContact_MKDS_1,1,Phoenix Contact,1729209,Digikey,2.50,Valve Outputs
+J4,Terminal Block 2P,Connector_Phoenix:PhoenixContact_MKDS_1,1,Phoenix Contact,1729201,Digikey,0.85,Pump Output
+J5,Terminal Block 3P,Connector_Phoenix:PhoenixContact_MKDS_1,1,Phoenix Contact,1729203,Digikey,1.50,RS485 A/B/GND
+J6,JST-XH 3P,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,8,JST,B3B-XH-A,Digikey,0.45,Soil Moisture Sensors (qty 8)
+J7,Header 2x5P,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,1,TE Connectivity,6-103489-4,Digikey,0.55,UART Expansion Header
+TP1,Test Point,TestPoint:TestPoint_Pad_1.0x1.0mm,5,generic,generic,generic,0.05,GND/+3.3V/+5V/+12V Test Points (qty 5)
+H1,Mounting Hole M3,MountingHole:MountingHole_3.2mm_M3,4,generic,generic,generic,0.01,PCB Mounting Holes (qty 4)
