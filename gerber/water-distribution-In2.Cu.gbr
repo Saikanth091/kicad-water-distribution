@@ -1,0 +1,27 @@
+G04 Water Distribution System - Power Plane (Inner Layer 2)*
+G04 This is a simplified representation of the Gerber file format*
+G04 For production, use KiCad's plot dialog to generate actual Gerber files*
+%MOIN*%
+%FSLAX24Y24*%
+G01*
+G04 Layer: In2.Cu - Power Plane*
+D10*
+X00500000Y01000000D02*
+X15000000Y01000000D01*
+X15000000Y11500000D01*
+X00500000Y11500000D01*
+X00500000Y01000000D01*
+D11*
+G04 Power distribution +5V and +12V planes*
+G04 Split plane: +5V in left half, +12V in right half*
+X00500000Y01000000D02*
+X07750000Y01000000D01*
+X07750000Y11500000D01*
+X00500000Y11500000D01*
+X00500000Y01000000D01*
+D12*
+G04 Power via stitching*
+X08000000Y05750000D03*
+X08000000Y06250000D03*
+X08000000Y06750000D03*
+M02*
