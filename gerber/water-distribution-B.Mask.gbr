@@ -1,0 +1,17 @@
+G04 Water Distribution System - Back Solder Mask*
+G04 This is a simplified representation of the Gerber file format*
+G04 For production, use KiCad's plot dialog to generate actual Gerber files*
+%MOIN*%
+%FSLAX24Y24*%
+G01*
+G04 Layer: B.Mask - Back Solder Mask*
+D10*
+G04 Solder mask opening for pads*
+X11000000Y05000000D02*
+X11250000Y05000000D01*
+X11250000Y05250000D01*
+X11000000Y05250000D01*
+X11000000Y05000000D01*
+D11*
+G04 Solder mask pattern for back pads*
+M02*
