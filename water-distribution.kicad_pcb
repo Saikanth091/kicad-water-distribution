@@ -1,0 +1,373 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "hole_size": 0.4,
+        "line_width": 0.25,
+        "text_size_h": 1.5,
+        "text_size_v": 1.5,
+        "text_thickness": 0.3,
+        "via_diameter": 0.8,
+        "via_type": 3
+      },
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "copper_edge_clearance": "error",
+        "courtyard_clearance": "warning",
+        "diff_pair_uncoupled_length_and_skew": "error",
+        "minimum_track_width": "error",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "text_height": "error",
+        "text_thickness": "error",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_dangling": "warning",
+        "track_width": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zone_has_empty_net": "error",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
+        "max_error": 0.0025,
+        "min_clearance": 0.2,
+        "min_copper_edge_clearance": 0.5,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_silk_clearance": 0.15,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.25,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.8,
+        "use_height_for_length_calcs": true
+      }
+    },
+    "layers": [
+      {
+        "canonical_name": "F.Cu",
+        "copper_thickness": 0.035,
+        "description": "Front copper layer",
+        "dielectric_color": "7CB0E8",
+        "dielectric_thickness": 0.1,
+        "layer_number": 0,
+        "name": "F.Cu",
+        "type": "copper"
+      },
+      {
+        "canonical_name": "In1.Cu",
+        "copper_thickness": 0.035,
+        "description": "Inner layer 1 (Ground plane)",
+        "dielectric_color": "7CB0E8",
+        "dielectric_thickness": 0.2,
+        "layer_number": 1,
+        "name": "In1.Cu",
+        "type": "copper"
+      },
+      {
+        "canonical_name": "In2.Cu",
+        "copper_thickness": 0.035,
+        "description": "Inner layer 2 (Power plane)",
+        "dielectric_color": "7CB0E8",
+        "dielectric_thickness": 0.2,
+        "layer_number": 2,
+        "name": "In2.Cu",
+        "type": "copper"
+      },
+      {
+        "canonical_name": "B.Cu",
+        "copper_thickness": 0.035,
+        "description": "Back copper layer",
+        "dielectric_color": "7CB0E8",
+        "dielectric_thickness": 0.1,
+        "layer_number": 3,
+        "name": "B.Cu",
+        "type": "copper"
+      },
+      {
+        "canonical_name": "B.Adhes",
+        "description": "Back adhesive",
+        "layer_number": 4,
+        "name": "B.Adhes",
+        "type": "user"
+      },
+      {
+        "canonical_name": "F.Adhes",
+        "description": "Front adhesive",
+        "layer_number": 5,
+        "name": "F.Adhes",
+        "type": "user"
+      },
+      {
+        "canonical_name": "B.Paste",
+        "description": "Back solder paste",
+        "layer_number": 6,
+        "name": "B.Paste",
+        "type": "user"
+      },
+      {
+        "canonical_name": "F.Paste",
+        "description": "Front solder paste",
+        "layer_number": 7,
+        "name": "F.Paste",
+        "type": "user"
+      },
+      {
+        "canonical_name": "B.SilkS",
+        "description": "Back silkscreen",
+        "layer_number": 8,
+        "name": "B.SilkS",
+        "type": "user"
+      },
+      {
+        "canonical_name": "F.SilkS",
+        "description": "Front silkscreen",
+        "layer_number": 9,
+        "name": "F.SilkS",
+        "type": "user"
+      },
+      {
+        "canonical_name": "B.Mask",
+        "description": "Back solder mask",
+        "layer_number": 10,
+        "name": "B.Mask",
+        "type": "user"
+      },
+      {
+        "canonical_name": "F.Mask",
+        "description": "Front solder mask",
+        "layer_number": 11,
+        "name": "F.Mask",
+        "type": "user"
+      },
+      {
+        "canonical_name": "Dwgs.User",
+        "description": "User drawings",
+        "layer_number": 12,
+        "name": "Dwgs.User",
+        "type": "user"
+      },
+      {
+        "canonical_name": "Cmts.User",
+        "description": "User comments",
+        "layer_number": 13,
+        "name": "Cmts.User",
+        "type": "user"
+      },
+      {
+        "canonical_name": "Eco1.User",
+        "description": "Eco1",
+        "layer_number": 14,
+        "name": "Eco1.User",
+        "type": "user"
+      },
+      {
+        "canonical_name": "Eco2.User",
+        "description": "Eco2",
+        "layer_number": 15,
+        "name": "Eco2.User",
+        "type": "user"
+      },
+      {
+        "canonical_name": "Edge.Cuts",
+        "description": "Board outline",
+        "layer_number": 16,
+        "name": "Edge.Cuts",
+        "type": "user"
+      },
+      {
+        "canonical_name": "Margin",
+        "description": "Board margin",
+        "layer_number": 17,
+        "name": "Margin",
+        "type": "user"
+      },
+      {
+        "canonical_name": "B.CrtYd",
+        "description": "Back courtyard",
+        "layer_number": 18,
+        "name": "B.CrtYd",
+        "type": "user"
+      },
+      {
+        "canonical_name": "F.CrtYd",
+        "description": "Front courtyard",
+        "layer_number": 19,
+        "name": "F.CrtYd",
+        "type": "user"
+      },
+      {
+        "canonical_name": "B.Fab",
+        "description": "Back assembly",
+        "layer_number": 20,
+        "name": "B.Fab",
+        "type": "user"
+      },
+      {
+        "canonical_name": "F.Fab",
+        "description": "Front assembly",
+        "layer_number": 21,
+        "name": "F.Fab",
+        "type": "user"
+      },
+      {
+        "canonical_name": "User.1",
+        "description": "User layer 1",
+        "layer_number": 22,
+        "name": "User.1",
+        "type": "user"
+      },
+      {
+        "canonical_name": "User.2",
+        "description": "User layer 2",
+        "layer_number": 23,
+        "name": "User.2",
+        "type": "user"
+      },
+      {
+        "canonical_name": "User.3",
+        "description": "User layer 3",
+        "layer_number": 24,
+        "name": "User.3",
+        "type": "user"
+      },
+      {
+        "canonical_name": "User.4",
+        "description": "User layer 4",
+        "layer_number": 25,
+        "name": "User.4",
+        "type": "user"
+      },
+      {
+        "canonical_name": "User.5",
+        "description": "User layer 5",
+        "layer_number": 26,
+        "name": "User.5",
+        "type": "user"
+      },
+      {
+        "canonical_name": "User.6",
+        "description": "User layer 6",
+        "layer_number": 27,
+        "name": "User.6",
+        "type": "user"
+      },
+      {
+        "canonical_name": "User.7",
+        "description": "User layer 7",
+        "layer_number": 28,
+        "name": "User.7",
+        "type": "user"
+      },
+      {
+        "canonical_name": "User.8",
+        "description": "User layer 8",
+        "layer_number": 29,
+        "name": "User.8",
+        "type": "user"
+      },
+      {
+        "canonical_name": "User.9",
+        "description": "User layer 9",
+        "layer_number": 30,
+        "name": "User.9",
+        "type": "user"
+      }
+    ],
+    "net": [],
+    "properties": [
+      {
+        "name": "Reference",
+        "value": "REF**"
+      },
+      {
+        "name": "Value",
+        "value": "VALUE"
+      }
+    ],
+    "settings": {
+      "PlotFrameRef": false,
+      "PlotIndexTolerance": 4715,
+      "colors": {
+        "background": "545554",
+        "copper": "d2d0d0",
+        "copper_selected": "f2b000",
+        "copperbk": "3e3c3f",
+        "cursor": "aaaaaa",
+        "dxf_convert_fill_closed_lwpolylines": true,
+        "dwg_line_width": 6,
+        "grid": "3c3c3c",
+        "grid_axes": "555555",
+        "pads": "d2d0d0",
+        "pads_selected": "f2b000",
+        "selection_shadow": "808080",
+        "silk": "f0f0f0",
+        "silk_selected": "f2b000",
+        "tracks": "d2d0d0",
+        "tracks_selected": "f2b000",
+        "via": "d2d0d0",
+        "via_selected": "f2b000",
+        "zones": "808080",
+        "zones_selected": "f2b000"
+      },
+      "cvpcb": {
+        "equivalence_files": []
+      },
+      "libraries": {
+        "pinned_footprint_libs": [],
+        "pinned_symbol_libs": []
+      },
+      "meta": {
+        "filename": "water-distribution.kicad_pcb",
+        "version": 1
+      },
+      "pcbnew": {
+        "last_paths": {
+          "gencad": "",
+          "idf": "",
+          "netlist": "",
+          "specctra_dsn": "",
+          "step": "",
+          "vrml": ""
+        },
+        "page_layout_descr_file": "",
+        "plot_directory": "./gerber/",
+        "user_trace_width": 0.25
+      },
+      "pcbnew/display": {
+        "gap_offset": 0.1,
+        "pad_clearance": 0.1,
+        "pad_number_font_size": 1.4,
+        "pcb_black_and_white": false,
+        "pcbnew_old_color_theme": false,
+        "ratsnest_mode": 1
+      },
+      "pcbnew/footprints": {
+        "location": {
+          "footprint": "(3Cd 0 0)",
+          "lib_id": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+          "lib_name": "Connector_JST"
+        }
+      }
+    }
+  },
+  "boards": []
+}
