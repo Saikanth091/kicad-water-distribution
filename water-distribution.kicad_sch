@@ -1,0 +1,80 @@
+(kicad_sch (version 20230121)
+
+  (uuid "12345678-1234-1234-1234-123456789012")
+
+  (paper "A4")
+  (title_block
+    (title "AI-Monitored Automated Water Distribution System")
+    (date "2026-06-02")
+    (rev "1.0")
+    (company "Agricultural IoT Systems")
+    (comment 1 "Industrial-grade water management PCB")
+    (comment 2 "ESP32-WROOM-32E based controller")
+    (comment 3 "8 Soil Moisture + 9 Valve Outputs")
+  )
+
+  (lib_symbols
+    (symbol "Device:R"
+      (pin_numbers hide)
+      (pin_names (offset 0.254))
+      (property "Reference" "R" (id 0) (at 2.032 0 90))
+      (property "Value" "R" (id 1) (at 0 0 90))
+      (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at -1.778 0 90))
+      (symbol "R_0_1"
+        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
+          (stroke (width 0.254)) (fill (type none))
+        )
+      )
+      (symbol "R_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27) (thickness 0.15)))) (number "1" (effects (font (size 1.27 1.27) (thickness 0.15)))))
+        (pin passive line (at 0 -3.81 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27) (thickness 0.15)))) (number "2" (effects (font (size 1.27 1.27) (thickness 0.15)))))
+      )
+    )
+    (symbol "Device:C"
+      (pin_numbers hide)
+      (pin_names (offset 0.254))
+      (property "Reference" "C" (id 0) (at 0.635 2.54 0))
+      (property "Value" "C" (id 1) (at 0.635 -2.54 0))
+      (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 0.9652 -3.81 0))
+      (symbol "C_0_1"
+        (polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.508)))
+        (polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.508)))
+      )
+      (symbol "C_1_1"
+        (pin passive line (at 0 3.81 270) (length 3.048) (name "~" (effects (font (size 1.27 1.27) (thickness 0.15)))) (number "1" (effects (font (size 1.27 1.27) (thickness 0.15)))))
+        (pin passive line (at 0 -3.81 90) (length 3.048) (name "~" (effects (font (size 1.27 1.27) (thickness 0.15)))) (number "2" (effects (font (size 1.27 1.27) (thickness 0.15)))))
+      )
+    )
+    (symbol "Device:LED"
+      (pin_numbers hide)
+      (pin_names (offset 1.016 (effects (font (size 1.27 1.27) (thickness 0.15)))))
+      (property "Reference" "LED" (id 0) (at 0 5.08 0))
+      (property "Value" "LED" (id 1) (at 0 -5.08 0))
+      (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 0 0 0))
+      (symbol "LED_0_1"
+        (polyline (pts (xy -1.27 -1.27) (xy -1.27 1.27)) (stroke (width 0.254)) (fill (type none)))
+        (polyline (pts (xy -1.27 0) (xy 1.27 -1.27)) (stroke (width 0.254)) (fill (type none)))
+        (polyline (pts (xy 0 0) (xy 1.27 -1.27)) (stroke (width 0.254)) (fill (type none)))
+        (polyline (pts (xy 1.27 -1.27) (xy 1.27 1.27)) (stroke (width 0.254)) (fill (type none)))
+      )
+      (symbol "LED_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54) (name "K" (effects (font (size 1.27 1.27) (thickness 0.15)))) (number "1" (effects (font (size 1.27 1.27) (thickness 0.15)))))
+        (pin passive line (at 3.81 0 180) (length 2.54) (name "A" (effects (font (size 1.27 1.27) (thickness 0.15)))) (number "2" (effects (font (size 1.27 1.27) (thickness 0.15)))))
+      )
+    )
+  )
+
+  (junction (at 50 50) (diameter 0) (color 0 0 0 0))
+
+  (wire (pts (xy 50 50) (xy 60 50)) (stroke (width 0.254)) (uuid "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"))
+
+  (text "ESP32-WROOM-32E Module" (at 20 20 0) (effects (font (size 1.5 1.5) (thickness 0.3))))
+  (text "Power Management Section" (at 20 100 0) (effects (font (size 1.5 1.5) (thickness 0.3))))
+  (text "Sensor Interface Section" (at 20 180 0) (effects (font (size 1.5 1.5) (thickness 0.3))))
+  (text "Output Driver Section" (at 20 260 0) (effects (font (size 1.5 1.5) (thickness 0.3))))
+  (text "RS485 Communication" (at 20 340 0) (effects (font (size 1.5 1.5) (thickness 0.3))))
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
