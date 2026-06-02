@@ -1,0 +1,17 @@
+G04 Water Distribution System - Ground Plane (Inner Layer 1)*
+G04 This is a simplified representation of the Gerber file format*
+G04 For production, use KiCad's plot dialog to generate actual Gerber files*
+%MOIN*%
+%FSLAX24Y24*%
+G01*
+G04 Layer: In1.Cu - Ground Plane*
+D10*
+X00500000Y01000000D02*
+X15000000Y01000000D01*
+X15000000Y11500000D01*
+X00500000Y11500000D01*
+X00500000Y01000000D01*
+D11*
+G04 Solid ground plane with via stitching*
+G04 All component grounds connected to this plane*
+M02*
