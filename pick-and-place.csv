@@ -1,0 +1,110 @@
+Designator,Midpoint X (mm),Midpoint Y (mm),Rotation (degrees),Value,Footprint,Side
+U1,75,60,0,ESP32-WROOM-32E,Module_ESP32:ESP32-WROOM-32E,Top
+U2,40,80,0,MP1584EN,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,Top
+U3,50,90,0,AMS1117-3.3,Package_TO_SOT_89:SOT-89-3,Top
+U4,60,85,0,MAX3485,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,Top
+Q1,30,85,0,AO3401A,Package_TO_SOT_23:SOT-23,Top
+Q2,110,50,0,AO3400A,Package_TO_SOT_23:SOT-23,Bottom
+Q2,110,60,0,AO3400A,Package_TO_SOT_23:SOT-23,Bottom
+Q2,110,70,0,AO3400A,Package_TO_SOT_23:SOT-23,Bottom
+Q2,120,50,0,AO3400A,Package_TO_SOT_23:SOT-23,Bottom
+Q2,120,60,0,AO3400A,Package_TO_SOT_23:SOT-23,Bottom
+Q2,120,70,0,AO3400A,Package_TO_SOT_23:SOT-23,Bottom
+Q2,130,50,0,AO3400A,Package_TO_SOT_23:SOT-23,Bottom
+Q2,130,60,0,AO3400A,Package_TO_SOT_23:SOT-23,Bottom
+Q2,130,70,0,AO3400A,Package_TO_SOT_23:SOT-23,Bottom
+D1,35,75,0,SMBJ15A,Package_SMD:DO-214AB,Top
+D2,115,80,0,SS14,Package_SMD:DO-214AB,Bottom
+D2,115,85,0,SS14,Package_SMD:DO-214AB,Bottom
+D2,115,90,0,SS14,Package_SMD:DO-214AB,Bottom
+D2,120,80,0,SS14,Package_SMD:DO-214AB,Bottom
+D2,120,85,0,SS14,Package_SMD:DO-214AB,Bottom
+D2,120,90,0,SS14,Package_SMD:DO-214AB,Bottom
+D2,125,80,0,SS14,Package_SMD:DO-214AB,Bottom
+D2,125,85,0,SS14,Package_SMD:DO-214AB,Bottom
+D2,125,90,0,SS14,Package_SMD:DO-214AB,Bottom
+F1,20,75,0,Polyfuse 2A,Fuse_SMD:Fuse_1206_3216Metric,Top
+C1,45,70,0,10µF,Capacitor_SMD:C_1206_3216Metric,Top
+C1,55,70,0,10µF,Capacitor_SMD:C_1206_3216Metric,Top
+C1,65,70,0,10µF,Capacitor_SMD:C_1206_3216Metric,Top
+C1,75,70,0,10µF,Capacitor_SMD:C_1206_3216Metric,Top
+C2,42,60,0,1µF,Capacitor_SMD:C_0603_1608Metric,Top
+C2,52,60,0,1µF,Capacitor_SMD:C_0603_1608Metric,Top
+C2,62,60,0,1µF,Capacitor_SMD:C_0603_1608Metric,Top
+C2,72,60,0,1µF,Capacitor_SMD:C_0603_1608Metric,Top
+C2,82,60,0,1µF,Capacitor_SMD:C_0603_1608Metric,Top
+C2,92,60,0,1µF,Capacitor_SMD:C_0603_1608Metric,Top
+C3,40,50,0,100nF,Capacitor_SMD:C_0603_1608Metric,Top
+C3,50,50,0,100nF,Capacitor_SMD:C_0603_1608Metric,Top
+C3,60,50,0,100nF,Capacitor_SMD:C_0603_1608Metric,Top
+C3,70,50,0,100nF,Capacitor_SMD:C_0603_1608Metric,Top
+C3,80,50,0,100nF,Capacitor_SMD:C_0603_1608Metric,Top
+C3,90,50,0,100nF,Capacitor_SMD:C_0603_1608Metric,Top
+C3,100,50,0,100nF,Capacitor_SMD:C_0603_1608Metric,Top
+C3,110,50,270,100nF,Capacitor_SMD:C_0603_1608Metric,Bottom
+C3,110,60,270,100nF,Capacitor_SMD:C_0603_1608Metric,Bottom
+C3,110,70,270,100nF,Capacitor_SMD:C_0603_1608Metric,Bottom
+C3,120,45,270,100nF,Capacitor_SMD:C_0603_1608Metric,Bottom
+C3,130,45,270,100nF,Capacitor_SMD:C_0603_1608Metric,Bottom
+C4,30,65,0,22µF,Capacitor_SMD:C_1206_3216Metric,Top
+C4,30,75,0,22µF,Capacitor_SMD:C_1206_3216Metric,Top
+L1,25,85,0,10µH,Inductor_SMD:L_1210_3225Metric,Top
+R1,35,50,0,100k,Resistor_SMD:R_0603_1608Metric,Top
+R2,45,40,0,10k,Resistor_SMD:R_0603_1608Metric,Top
+R2,55,40,0,10k,Resistor_SMD:R_0603_1608Metric,Top
+R2,65,40,0,10k,Resistor_SMD:R_0603_1608Metric,Top
+R2,75,40,0,10k,Resistor_SMD:R_0603_1608Metric,Top
+R2,85,40,0,10k,Resistor_SMD:R_0603_1608Metric,Top
+R2,95,40,0,10k,Resistor_SMD:R_0603_1608Metric,Top
+R2,105,40,0,10k,Resistor_SMD:R_0603_1608Metric,Top
+R2,115,40,0,10k,Resistor_SMD:R_0603_1608Metric,Top
+R2,125,40,0,10k,Resistor_SMD:R_0603_1608Metric,Top
+R2,135,40,0,10k,Resistor_SMD:R_0603_1608Metric,Top
+R3,115,35,180,100,Resistor_SMD:R_0603_1608Metric,Bottom
+R3,120,35,180,100,Resistor_SMD:R_0603_1608Metric,Bottom
+R3,125,35,180,100,Resistor_SMD:R_0603_1608Metric,Bottom
+R3,130,35,180,100,Resistor_SMD:R_0603_1608Metric,Bottom
+R3,135,35,180,100,Resistor_SMD:R_0603_1608Metric,Bottom
+R3,140,35,180,100,Resistor_SMD:R_0603_1608Metric,Bottom
+R3,145,35,180,100,Resistor_SMD:R_0603_1608Metric,Bottom
+R3,115,25,180,100,Resistor_SMD:R_0603_1608Metric,Bottom
+R3,120,25,180,100,Resistor_SMD:R_0603_1608Metric,Bottom
+R4,10,40,0,1k,Resistor_SMD:R_0603_1608Metric,Top
+R4,10,50,0,1k,Resistor_SMD:R_0603_1608Metric,Top
+R4,10,60,0,1k,Resistor_SMD:R_0603_1608Metric,Top
+R4,10,70,0,1k,Resistor_SMD:R_0603_1608Metric,Top
+R5,65,95,0,2.2k,Resistor_SMD:R_0603_1608Metric,Top
+R5,75,95,0,2.2k,Resistor_SMD:R_0603_1608Metric,Top
+R6,65,100,0,120,Resistor_SMD:R_0603_1608Metric,Top
+R6,75,100,0,120,Resistor_SMD:R_0603_1608Metric,Top
+LED1,15,40,0,Red LED,LED_SMD:LED_0603_1608Metric,Top
+LED2,15,50,0,Green LED,LED_SMD:LED_0603_1608Metric,Top
+LED3,15,60,0,Blue LED,LED_SMD:LED_0603_1608Metric,Top
+LED4,15,70,0,Yellow LED,LED_SMD:LED_0603_1608Metric,Top
+SW1,25,40,0,Boot Button,Button_SMD:SW_SPST_TL3305,Top
+SW2,25,50,0,Reset Button,Button_SMD:SW_SPST_TL3305,Top
+J1,75,25,0,USB Micro B,Connector_USB:USB_Micro-B_Amphenol_10103594,Top
+J2,10,20,270,Terminal Block 2P,Connector_Phoenix:PhoenixContact_MKDS_1,Top
+J2,10,30,270,Terminal Block 2P,Connector_Phoenix:PhoenixContact_MKDS_1,Top
+J2,10,80,270,Terminal Block 2P,Connector_Phoenix:PhoenixContact_MKDS_1,Top
+J3,140,20,90,Terminal Block 9P,Connector_Phoenix:PhoenixContact_MKDS_1,Bottom
+J4,140,15,90,Terminal Block 2P,Connector_Phoenix:PhoenixContact_MKDS_1,Bottom
+J5,85,10,0,Terminal Block 3P,Connector_Phoenix:PhoenixContact_MKDS_1,Top
+J6,20,10,0,JST-XH 3P,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,Top
+J6,35,10,0,JST-XH 3P,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,Top
+J6,50,10,0,JST-XH 3P,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,Top
+J6,65,10,0,JST-XH 3P,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,Top
+J6,20,115,0,JST-XH 3P,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,Top
+J6,35,115,0,JST-XH 3P,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,Top
+J6,50,115,0,JST-XH 3P,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,Top
+J6,65,115,0,JST-XH 3P,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,Top
+J7,145,75,0,Header 2x5P,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,Top
+TP1,5,5,0,Test Point,TestPoint:TestPoint_Pad_1.0x1.0mm,Top
+TP1,5,115,0,Test Point,TestPoint:TestPoint_Pad_1.0x1.0mm,Top
+TP1,145,5,0,Test Point,TestPoint:TestPoint_Pad_1.0x1.0mm,Top
+TP1,145,115,0,Test Point,TestPoint:TestPoint_Pad_1.0x1.0mm,Top
+TP1,75,5,0,Test Point,TestPoint:TestPoint_Pad_1.0x1.0mm,Top
+H1,8,8,0,Mounting Hole M3,MountingHole:MountingHole_3.2mm_M3,Both
+H1,142,8,0,Mounting Hole M3,MountingHole:MountingHole_3.2mm_M3,Both
+H1,8,112,0,Mounting Hole M3,MountingHole:MountingHole_3.2mm_M3,Both
+H1,142,112,0,Mounting Hole M3,MountingHole:MountingHole_3.2mm_M3,Both
