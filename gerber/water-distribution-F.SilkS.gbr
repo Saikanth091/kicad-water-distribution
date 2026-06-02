@@ -1,0 +1,25 @@
+G04 Water Distribution System - Silkscreen Front*
+G04 This is a simplified representation of the Gerber file format*
+G04 For production, use KiCad's plot dialog to generate actual Gerber files*
+%MOIN*%
+%FSLAX24Y24*%
+G01*
+G04 Layer: F.SilkS - Front Silkscreen*
+D10*
+G04 Reference designators and component values*
+X07500000Y06000000D02*
+X07700000Y06000000D01*
+G04 Board title and logo area*
+X01000000Y10500000D02*
+X14000000Y10500000D01*
+X14000000Y11000000D01*
+X01000000Y11000000D01*
+X01000000Y10500000D01*
+G04 Keepout zone for WiFi antenna*
+D11*
+X13500000Y09000000D02*
+X14500000Y09000000D01*
+X14500000Y10000000D01*
+X13500000Y10000000D01*
+X13500000Y09000000D01*
+M02*
