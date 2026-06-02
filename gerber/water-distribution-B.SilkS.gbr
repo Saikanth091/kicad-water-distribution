@@ -1,0 +1,16 @@
+G04 Water Distribution System - Silkscreen Back*
+G04 This is a simplified representation of the Gerber file format*
+G04 For production, use KiCad's plot dialog to generate actual Gerber files*
+%MOIN*%
+%FSLAX24Y24*%
+G01*
+G04 Layer: B.SilkS - Back Silkscreen*
+D10*
+G04 Back reference designators*
+X11000000Y05000000D02*
+X11200000Y05000000D01*
+X11000000Y06000000D02*
+X11200000Y06000000D01*
+X11000000Y07000000D02*
+X11200000Y07000000D01*
+M02*
