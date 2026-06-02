@@ -1,0 +1,212 @@
+{
+  "board": {
+    "3dviewports": []
+  },
+  "eda_version": "9.0.0",
+  "meta": {
+    "filename": "water-distribution.kicad_pro",
+    "version": 1
+  },
+  "net": {
+    "code": 0,
+    "name": ""
+  },
+  "nets": [
+    {
+      "code": 1,
+      "name": "+12V"
+    },
+    {
+      "code": 2,
+      "name": "+5V"
+    },
+    {
+      "code": 3,
+      "name": "+3.3V"
+    },
+    {
+      "code": 4,
+      "name": "GND"
+    },
+    {
+      "code": 5,
+      "name": "GPIO23_PUMP"
+    },
+    {
+      "code": 6,
+      "name": "GPIO16_VALVE1"
+    },
+    {
+      "code": 7,
+      "name": "GPIO17_VALVE2"
+    },
+    {
+      "code": 8,
+      "name": "GPIO18_VALVE3"
+    },
+    {
+      "code": 9,
+      "name": "GPIO19_VALVE4"
+    },
+    {
+      "code": 10,
+      "name": "GPIO21_VALVE5"
+    },
+    {
+      "code": 11,
+      "name": "GPIO22_VALVE6"
+    },
+    {
+      "code": 12,
+      "name": "GPIO13_VALVE7"
+    },
+    {
+      "code": 13,
+      "name": "GPIO15_VALVE8"
+    },
+    {
+      "code": 14,
+      "name": "GPIO4_DHT22"
+    },
+    {
+      "code": 15,
+      "name": "GPIO27_RAIN"
+    },
+    {
+      "code": 16,
+      "name": "GPIO14_FLOW"
+    },
+    {
+      "code": 17,
+      "name": "GPIO12_LEVEL"
+    },
+    {
+      "code": 18,
+      "name": "GPIO34_SOIL1"
+    },
+    {
+      "code": 19,
+      "name": "GPIO35_SOIL2"
+    },
+    {
+      "code": 20,
+      "name": "GPIO32_SOIL3"
+    },
+    {
+      "code": 21,
+      "name": "GPIO33_SOIL4"
+    },
+    {
+      "code": 22,
+      "name": "GPIO36_SOIL5"
+    },
+    {
+      "code": 23,
+      "name": "GPIO39_SOIL6"
+    },
+    {
+      "code": 24,
+      "name": "GPIO25_SOIL7"
+    },
+    {
+      "code": 25,
+      "name": "GPIO26_SOIL8"
+    },
+    {
+      "code": 26,
+      "name": "RS485_A"
+    },
+    {
+      "code": 27,
+      "name": "RS485_B"
+    },
+    {
+      "code": 28,
+      "name": "UART_TX"
+    },
+    {
+      "code": 29,
+      "name": "UART_RX"
+    }
+  ],
+  "pcbnew": {
+    "auto_drc_schematic_parity": true,
+    "board_plot_params": {
+      "check_zone_fills": false,
+      "create_gerber_job_file": true,
+      "create_gerber_protel_ext": true,
+      "gerber_job_file_name": "water-distribution.gbrjob",
+      "plot_all_text_on_fab": false,
+      "plot_frame_ref": false,
+      "plot_line_width": 0.15,
+      "plot_mirror": false,
+      "plot_on_all_layers": false,
+      "plot_pads_on_fab": false,
+      "ps_file_names": false,
+      "tent_vias": true,
+      "use_aux_axis_as_origin": false,
+      "use_protel_ext": true
+    },
+    "design_settings": {
+      "default_line_width": 0.25,
+      "default_text_size": 1.0,
+      "default_track_width": 0.25,
+      "default_via_size": 0.8,
+      "diff_pair_gap": 0.25,
+      "diff_pair_via_gap": 0.25,
+      "diff_pair_width": 0.2,
+      "min_clearance": 0.2,
+      "min_microvia_diameter": 0.2,
+      "min_microvia_drill": 0.1,
+      "min_silk_width": 0.15,
+      "min_text_height": 0.8,
+      "min_text_width": 0.08,
+      "min_track_width": 0.25,
+      "min_via_annular_width": 0.1,
+      "min_via_diameter": 0.8,
+      "pad_to_mask_clearance": 0.051,
+      "solder_mask_to_copper_clearance": 0.0,
+      "trace_min_after_drc": 0.25,
+      "via_min_drill": 0.3,
+      "via_min_size": 0.8
+    }
+  },
+  "schematic": {
+    "annotate_start_num": 100,
+    "drawing": {
+      "dashed_lines_dash_len_ratio": 12.0,
+      "dashed_lines_gap_len_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_short": false,
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.08
+    },
+    "legacy_lib_dir": "",
+    "legacy_sch_dir": "",
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "./",
+    "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_voltages": false,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "subpart_first_id": 65,
+    "theater_mode": false,
+    "user_lib_paths": []
+  },
+  "sheets": [
+    [
+      "12345678-1234-1234-1234-123456789012",
+      "Root"
+    ]
+  ],
+  "text_variables": {}
+}
